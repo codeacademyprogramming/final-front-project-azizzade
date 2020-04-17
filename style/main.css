@@ -1,0 +1,171 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.top_contact_us {
+    background-color: rgb(44, 44, 44);
+}
+
+.top_head_full {
+    width: 98%;
+}
+
+.top_contact_contacts {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_contact_left ul {
+    display: flex;
+    align-items: center;
+}
+
+.top_contact_left ul li {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    color: #d5d5d5;
+}
+
+.top_contact_left i {
+    padding-right: 12px;
+    font-size: 16px;
+}
+
+.top_contact_left p {
+    font-size: 10pt;
+}
+
+.top_contact_social ul {
+    display: flex;
+}
+
+.top_contact_social ul li a {
+    font-size: 10pt;
+    color: #d5d5d5;
+    padding-right: 16px;
+
+}
+
+.top_contact_social ul li:last-child {
+    padding-right: 0;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.top_head_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation_menyu_content {
+    display: flex;
+    padding-right: 150px;
+    font-size: 16pt;
+    z-index: 1;
+}
+
+.navigation_menyu_content li {
+    margin-right: 20px;
+}
+
+#pages_children {
+    background-color: red;
+    padding: 20px 100px 4px 20px;
+    border-bottom: solid 6px hsl(0, 0%, 0%);
+    display: none;
+    width: 100px;
+    position: absolute;
+    left: 675px;
+}
+
+#pages_children li {
+    margin-bottom: 10px;
+}
+
+#doctors_children {
+    background-color: red;
+    padding: 20px 100px 4px 20px;
+    border-bottom: solid 6px hsl(0, 0%, 0%);
+    display: none;
+    width: 100px;
+    position: absolute;
+    left: 750px;
+}
+
+#doctors_children li {
+    margin-bottom: 10px;
+}
+
+#department_children {
+    background-color: red;
+    padding: 20px 100px 4px 20px;
+    border-bottom: solid 6px hsl(0, 0%, 0%);
+    display: none;
+    width: 140px;
+    position: absolute;
+    left: 840px;
+}
+
+#department_children li {
+    margin-bottom: 10px;
+}
+
+#blog_children {
+    background-color: red;
+    padding: 20px 100px 4px 20px;
+    border-bottom: solid 6px hsl(0, 0%, 0%);
+    display: none;
+    width: 140px;
+    position: absolute;
+    left: 970px;
+}
+
+#blog_children li {
+    margin-bottom: 10px;
+}
+
+#shop_children {
+    background-color: red;
+    padding: 20px 100px 4px 20px;
+    border-bottom: solid 6px hsl(0, 0%, 0%);
+    display: none;
+    width: 100px;
+    position: absolute;
+    right: 75px;
+}
+
+#shop_children li {
+    margin-bottom: 10px;
+}
+
+.search_basket {
+    font-size: 14pt;
+}
+
+.search_basket i:first-child {
+    padding-right: 20px;
+}
