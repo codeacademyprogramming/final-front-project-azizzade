@@ -1,19 +1,19 @@
 $(document).ready(function(){
   
   $("#pages").mouseenter( function () {
-    $("#pages_childeren").slideDown(1000);
+    $("#pages_children").slideDown(1000);
   });
   
   $("#pages").mouseleave( function () {
-      $("#pages_childeren").slideUp(500);
+      $("#pages_children").slideUp(500);
   });
 
   $("#doctors").mouseenter( function () {
-    $("#doctors_childeren").slideDown(1000);
+    $("#doctors_children").slideDown(1000);
   });
   
   $("#doctors").mouseleave( function () {
-      $("#doctors_childeren").slideUp(500);
+      $("#doctors_children").slideUp(500);
   });
 
   $("#department").mouseenter( function () {
@@ -39,4 +39,49 @@ $(document).ready(function(){
   $("#shop").mouseleave( function () {
       $("#shop_children").slideUp(500);
   });
+
+  $("#search").click(function(){
+    $(".modal_search").show(1000)
+  })
+  $(".close_btn").click(function(){
+    $(".modal_search").hide(1000)
+  })
+
+  $(".departments").mouseenter(function(){
+    $(this).find("#more_detail").css("color", "black")
+    $(this).find("#more_detail_icon").show(500)
+  })
+
+  $(".departments").mouseleave(function(){
+    $(this).find("#more_detail").css("color", " rgba(0, 125, 242, 1)")
+    $(this).find("#more_detail_icon").hide(500)
+  })
+
+  $(".find_a_doctor").mouseenter(function(){
+    $(this).find("#more_detail").css("color", "black")
+    $(this).find("#more_detail_icon").show(500)
+  })
+
+  $(".find_a_doctor").mouseleave(function(){
+    $(this).find("#more_detail").css("color", " rgba(0, 125, 242, 1)")
+    $(this).find("#more_detail_icon").hide(500)
+  })
+
+  $(".appointment").mouseenter(function(){
+    $(this).find("#more_detail").css("color", "black")
+    $(this).find("#more_detail_icon").show(500)
+  })
+
+  $(".appointment").mouseleave(function(){
+    $(this).find("#more_detail").css("color", " rgba(0, 125, 242, 1)")
+    $(this).find("#more_detail_icon").hide(500)
+  })
+
+  $(".play_button").click(function(){
+    $(".video_modal").show(1000)
+  })
+  $(".video_close_btn").click(function(){
+    $(".video_modal").hide(1000)
+  })
+
 });
