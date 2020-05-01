@@ -433,7 +433,7 @@ a:active {
     margin-bottom: 15px;
 }
 
-.our_vision_title h2{
+.our_vision_title h2 {
     font-size: 36px;
     line-height: 52px;
     color: #303030;
@@ -522,7 +522,7 @@ a:active {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;  
+    bottom: 0;
 }
 
 .video_modal_content {
@@ -565,7 +565,7 @@ a:active {
     margin-bottom: 15px;
 }
 
-.what_w_d_best_title h2{
+.what_w_d_best_title h2 {
     font-size: 36px;
     line-height: 52px;
     color: #303030;
@@ -580,4 +580,47 @@ a:active {
     padding-top: 12px;
     text-align: center;
     width: 975px;
+}
+
+.what_w_d_best_depart_first {
+    display: flex;
+}
+
+.what_w_d_best_depart_first li {
+    display: flex;
+    box-shadow: 0 0 10px rgba(48, 48, 48, 0.1);
+    padding: 33px 33px 27px 19px;
+    background: white;
+}
+
+.what_w_d_best_depart_first li:hover {
+    background: rgba(0, 125, 242, 1);
+    transition: all 0,5s;
+    color: white;
+}
+
+#margin-right {
+    margin-right: 25px;
+}
+
+.depart_icon {
+    font-size: 51px;
+    color: rgba(0, 125, 242, 1);
+    line-height: 1;
+    margin-right: 25px;
+}
+
+.depart_content h5 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 14px;
+    color: #303030;
+}
+
+.depart_content p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #303030;
+    width: 240px;
 }
